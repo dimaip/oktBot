@@ -2,8 +2,8 @@ version: "3.4"
 services:
   web:
     restart: on-failure
-    image: ghcr.io/psmb/memorybot:main
-    hostname: 'memoryBot'
+    image: ghcr.io/dimaip/oktBot:main
+    hostname: 'oktBot'
     networks:
       - main
     environment:
