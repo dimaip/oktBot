@@ -1,0 +1,6 @@
+Lib
+.idea
+__pycache__
+Scripts
+functions.py
+.env
