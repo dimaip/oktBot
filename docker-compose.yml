@@ -1,7 +1,7 @@
 version: "3.4"
 services:
   web:
-    restart: on-failure
+    restart: always
     image: ghcr.io/dimaip/oktbot:main
     hostname: 'oktBot'
     networks:
